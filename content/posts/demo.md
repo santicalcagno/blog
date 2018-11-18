@@ -23,7 +23,7 @@ _Italic_, **bold**, and `monospace`. Itemized lists look like:
 > future; he lives as if he is never going to die, and then dies having
 > never really lived. -James J Lachard
 
-<h2>An h2 header</h2>
+## An h2 header
 
 **Some code blocks**
 
@@ -42,7 +42,7 @@ for i in range(10): # (but not _too_ quick)
   print i
 ```
 
-<h3>An h3 header</h3>
+### An h3 header
 
 A nested list:
 
@@ -65,56 +65,33 @@ A nested list:
 
     Do not bump wooden spoon or it will fall.
 
-<h1>Header level 1</h1>
-<h2>Header level 2</h2>
-<h3>Header level 3</h3>
-<h4>Header level 4</h4>
-<h5>Header level 5</h5>
-<h6>Header level 6</h6>
+# Header level 1
+
+## Header level 2
+
+### Header level 3
+
+#### Header level 4
+
+##### Header level 5
+
+###### Header level 6
 
 A horizontal line:
 
 <hr />
 
-<p>
-  Here's a link to <a href="http://foo.bar">a website</a>, to a
-  <a href="local-doc.html">local doc</a>, and to a
-  <a href="#an-h2-header">section heading in the current doc</a>. Here's a
-  footnote <a href="#fn1" id="fnref1"><sup>1</sup></a
-  >.
-</p>
+Here's a link to [a website](https://santicalcagno.com), to a [local doc](local-doc.html), and to a [section heading in the current doc](#an-h2-header). Here's a footnote[^1].
 
 Tables can look like this:
 
-<table>
-  <caption>
-    Shoes, their sizes, and what they're made of
-  </caption>
-  <thead>
-    <tr>
-      <th align="left">size</th>
-      <th align="left">material</th>
-      <th align="left">color</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td align="left">9</td>
-      <td align="left">leather</td>
-      <td align="left">brown</td>
-    </tr>
-    <tr>
-      <td align="left">10</td>
-      <td align="left">hemp canvas</td>
-      <td align="left">natural</td>
-    </tr>
-    <tr>
-      <td align="left">11</td>
-      <td align="left">glass</td>
-      <td align="left">transparent</td>
-    </tr>
-  </tbody>
-</table>
+**Shoes, their sizes, and what they're made of**
+
+| size | material    | color       |
+| ---- | ----------- | ----------- |
+| 9    | leather     | brown       |
+| 10   | hemp canvas | natural     |
+| 11   | glass       | transparent |
 
 <p>Multi-line tables:</p>
 
@@ -152,6 +129,12 @@ Tables can look like this:
 </div>
 
 <hr />
+
+Markdown checkboxes:
+
+- [x] Choice A
+- [ ] Choice B
+- [ ] Choice C
 
 <h1 id="form-elements">Form Elements</h1>
 <form>
@@ -285,12 +268,5 @@ Tables can look like this:
     <p><a href="#top">[Top]</a></p>
   </fieldset>
 </form>
-<div>
-  <hr />
-  <ol>
-    <li>
-      <p>Footnote text goes here.<a href="#fnref1">↩</a></p>
-    </li>
-  </ol>
-</div>
-</div>
+
+[^1]: Footnote text goes here.
