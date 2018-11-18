@@ -25,11 +25,11 @@ body {
   }
 }
 
-@media (max-width: 382px) {
+/* @media (max-width: 382px) {
   body {
     font-size: 1.35rem;
   }
-}
+} */
 
 h1,
 h2,
