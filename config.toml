@@ -2,3 +2,8 @@ baseURL = "https://santicalcagno.com/"
 languageCode = "en-us"
 title = "Santiago Calcagno"
 theme = "blank"
+
+[markup]
+  [markup.highlight]
+    noClasses = false
+    tabWidth = 4
