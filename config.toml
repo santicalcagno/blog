@@ -5,4 +5,4 @@ theme = "blank"
 
 [markup]
   [markup.highlight]
-    style = "bw"
+    noClasses = false
