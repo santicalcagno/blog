@@ -2,4 +2,4 @@ baseURL = "https://santicalcagno.com/"
 languageCode = "en-us"
 title = "Santiago Calcagno"
 theme = "blank"
-pygmentsCodeFences = true
+pygmentsCodeFences = false
