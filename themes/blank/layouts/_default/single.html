@@ -1,4 +1,4 @@
-{{ partial "header.html" . }}
+{{ define "main" }}
 	<main>
 		<article>
 			<h1>{{ .Title }}</h1>
@@ -6,17 +6,21 @@
 			<div>
 				{{ .Content }}
 			</div>
+			{{ with .Params.tags }}
 			<div>
 				<ul id="tags">
-					{{ range .Params.tags }}
-					<li><a href="{{ "/tags/" | relLangURL }}{{ . | urlize }}">{{ . }}</a> </li>
+					{{ range . }}
+					<li><a href="{{ "/tags/" | relLangURL }}{{ . | urlize }}">{{ . }}</a></li>
 					{{ end }}
 				</ul>
 			</div>
+			{{ end }}
+			{{ with .Site.DisqusShortname }}
 			<div>
 				{{ template "_internal/disqus.html" . }}
 			</div>
+			{{ end }}
 		</article>
 	</main>
 {{ partial "sidebar.html" . }}
-{{ partial "footer.html" . }}
+{{ end }}

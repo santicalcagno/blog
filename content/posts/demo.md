@@ -1,8 +1,7 @@
----
-title: 'Demo'
-type: post
-date: 2018-03-07
----
++++
+title = "Demo"
+date = 2020-09-20T02:22:22Z
++++
 
 This is an anchor tag/hyper link: [my blog](https://santicalcagno.com)
 
