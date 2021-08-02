@@ -116,6 +116,10 @@ pre > code {
   overflow-x: auto;
 }
 
+a code {
+  color: var(--links);
+}
+
 var {
   color: var(--variable);
   font-style: normal;
