@@ -1,6 +1,7 @@
 +++
 title = "M1 dev setup using a NixOS virtual machine"
 date = 2021-08-01
+slug = "m1dev"
 +++
 
 For the last two months I have been doing dev work on an M1 MacBook Air. Kind of a big change in retrospective, having used Linux in bare metal almost uninterruptedly for 10 years, give or take. Needless to say at this point, the hardware is great and the main reason that made me go with it, and I did not find any blockers on the software side for the things I normally do.

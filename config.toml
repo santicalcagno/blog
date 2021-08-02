@@ -16,4 +16,4 @@ theme = "blank"
     url = "https://linkedin.com/in/santicalcagno"
 
 [permalinks]
-  posts = "/:title"
+  posts = "/:slug"
