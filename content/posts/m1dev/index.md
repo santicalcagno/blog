@@ -27,6 +27,7 @@ A big downside of committing to the Nix way of things at this point in time is t
 Keep in mind running Nix in macOS is also an option, one that is being nicely shaped thanks to the [Nix 🖤 macOS Open Collective](https://discourse.nixos.org/t/nix-macos-monthly/12330). As far as I read, it can work as a replacement for [Homebrew](https://brew.sh/). Some [nice](https://github.com/NixOS/nix/pull/4289#issuecomment-842797556) things might still need to wait for a backport or a new Nix release though. For me, needing Docker already made me go with the VM approach instead, and after some time I find the logical separation of integrated OS apps and the dev environment "cozy", if that makes any sense.
 
 A couple of things I recommend complementing this setup with:
+
 - The [Nix Environment Selector](https://marketplace.visualstudio.com/items?itemName=arrterian.nix-env-selector) extension to make VSCode aware of the development environment defined in `shell.nix` files, so that it can use things declared there and not in the general system configuration.
 - [Code Server support for NixOS](https://github.com/msteen/nixos-vscode-server).
 
