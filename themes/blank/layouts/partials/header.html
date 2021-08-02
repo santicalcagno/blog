@@ -1,10 +1,12 @@
-<header>
+<header style="display: flex; justify-content: space-between; align-items: flex-start;">
 	<a href="{{ .Site.BaseURL }}">{{ .Site.Title }}</a>
 	{{ with .Site.Menus.main }}
 	<nav>
-		<ul>
+		<ul style="margin: 0em; display: flex; list-style-type: none;">
 			{{ range . }}
-			<li><a href="{{ .URL | relURL }}">{{ .Name }}</a></li>
+			<li style="padding: 0 1em;">
+				<a href="{{ .URL | relURL }}">{{ .Name }}</a>
+			</li>
 			{{ end }}
 		</ul>
 	</nav>
