@@ -50,6 +50,10 @@ body {
   text-rendering: optimizeLegibility;
 }
 
+header {
+  margin-bottom: 20px;
+}
+
 h1 {
   font-size: 2.2em;
   margin-top: 0;
