@@ -4,8 +4,6 @@ date = 2022-04-19
 slug = "saa-c02"
 +++
 
-(📝 this is a draft. Expect things to move around until I make them stay still.)
-
 Yesterday I sat for the Solutions Architect Associate exam from AWS, and I passed! Here are some notes from my experience.
 
 ## Training material
