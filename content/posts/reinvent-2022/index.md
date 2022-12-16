@@ -229,4 +229,4 @@ Most I knew, but I'm taking this with me: [ECR pull-through cache](https://docs.
 
 ### [Build scalable multi-tenant databases with Amazon Aurora (DAT318)](https://www.youtube.com/watch?v=tWRhDxcMLYo)
 
-I asked the speaker why they didn't opt for DMS for the migration process, the answer was that their DBAs had (presumably much more) experience with standard MySQL tooling.
+I asked the speaker why they didn't opt for DMS for the migration process, the answer was that their DBAs had (presumably much more) experience with standard MySQL tooling
