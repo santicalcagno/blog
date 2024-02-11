@@ -177,3 +177,10 @@ footer {
   font-size: 0.8em;
   color: var(--text-muted);
 }
+
+figure {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
