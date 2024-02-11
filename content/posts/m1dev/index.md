@@ -4,6 +4,8 @@ date = 2021-08-01
 slug = "m1dev"
 +++
 
+**2024 UPDATE**: I ended up ditching this in favor of one of the Docker Desktop clients and dev containers. Sometimes I still think of integrating dev containers and nix using one the tools like [devenv.sh](https://devenv.sh) and [Devbox](https://www.jetpack.io/devbox), but I haven't taken a look at it yet.
+
 For the last two months I have been doing dev work on an M1 MacBook Air. Kind of a big change in retrospective, having used Linux in bare metal almost uninterruptedly for 10 years, give or take. Needless to say at this point, the hardware is great and the main reason that made me go with it, and I did not find any blockers on the software side for the things I normally do.
 
 One of the reasons I suspect made everything a bit smoother is being prepared to leverage my comfort using Linux to set up a [virtual machine](https://gopensource.com/m1-dev-setup-with-a-virtual-linux-box-1a2688231667?gi=1e171b8d2228) with [UTM](https://mac.getutm.app/) (a frontend for [QEMU](https://www.qemu.org/) in macOS) or [Docker containers](https://code.visualstudio.com/docs/remote/containers) using the Docker Desktop app for my work. Given that Docker in macOS uses virtualization to run a Linux kernel anyway, I decided to go with the "bare" VM approach for more ~~tinkering~~ control.
